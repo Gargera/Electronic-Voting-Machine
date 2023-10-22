@@ -11,11 +11,11 @@ int main(void)
 	LCD_init('C' , 4 , 'C' , 2 , 'C' , 1 , 'C' , 3 , 4);
 	for(char i = 0 ; i < 4 ; i++) BUTTON_vInit('D' , i);
 	
-	LCD_vSend_string('C' , 4 , 'C' , 1 , 'C' , 3 , 4 , "A=    0");
+	LCD_vSend_string('C' , 4 , 'C' , 1 , 'C' , 3 , 4 , "A=    0,");
 	LCD_movecursor(1 , 10 , 'C' , 4 , 'C' , 1 , 'C' , 3 , 4);
 	LCD_vSend_string('C' , 4 , 'C' , 1 , 'C' , 3 , 4 , "B=    0");
 	LCD_movecursor(2 , 1 , 'C' , 4 , 'C' , 1 , 'C' , 3 , 4);
-	LCD_vSend_string('C' , 4 , 'C' , 1 , 'C' , 3 , 4 , "C=    0");
+	LCD_vSend_string('C' , 4 , 'C' , 1 , 'C' , 3 , 4 , "C=    0,");
 	LCD_movecursor(2 , 10 , 'C' , 4 , 'C' , 1 , 'C' , 3 , 4);
 	LCD_vSend_string('C' , 4 , 'C' , 1 , 'C' , 3 , 4 , "D=    0");
 	
