@@ -26,7 +26,7 @@ void LCD_init(char portname , char pinnumber , char portname_RW , char pinnumber
 		LCD_vSend_cmd(portname , pinnumber , portname_RS , pinnumber_RS , portname_EN , pinnumber_EN , BITS_MODE , FOUR_BITS);
 	}		
 	
-	LCD_vSend_cmd(portname , pinnumber , portname_RS , pinnumber_RS , portname_EN , pinnumber_EN , BITS_MODE , CURSOR_OFF_DISPLAN_ON);
+	LCD_vSend_cmd(portname , pinnumber , portname_RS , pinnumber_RS , portname_EN , pinnumber_EN , BITS_MODE , CURSOR_OFF_DISPLAY_ON);
 	LCD_clearscreen(portname , pinnumber , portname_RS , pinnumber_RS , portname_EN , pinnumber_EN , BITS_MODE);
 	LCD_vSend_cmd(portname , pinnumber , portname_RS , pinnumber_RS , portname_EN , pinnumber_EN , BITS_MODE , ENTRY_MODE);
 }
