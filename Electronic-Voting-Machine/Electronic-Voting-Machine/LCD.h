@@ -2,7 +2,7 @@
 #define LCD_H_
 
 #define CLR_SCREEN                0x01
-#define CURSOR_OFF_DISPLAN_ON     0x0c
+#define CURSOR_OFF_DISPLAY_ON     0x0c
 #define RETURN_HOME               0x02
 #define ENTRY_MODE                0x06
 #define FOUR_BITS                 0x28
